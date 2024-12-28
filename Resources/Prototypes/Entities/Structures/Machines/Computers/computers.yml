@@ -1343,11 +1343,11 @@
       - MedicalScannerSender
       - CloningPodSender
   - type: ActivatableUI
-    key: enum.CloningConsoleUiKey.Key
+    key: enum.DNAConsoleUiKey.Key
   - type: UserInterface
     interfaces:
-        enum.CloningConsoleUiKey.Key:
-          type: CloningConsoleBoundUserInterface
+        enum.DNAConsoleUiKey.Key:
+          type: DNAConsoleBoundUserInterface
         enum.WiresUiKey.Key:
           type: WiresBoundUserInterface
   - type: Speech
