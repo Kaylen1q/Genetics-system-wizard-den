@@ -1,7 +1,7 @@
 <DefaultWindow xmlns="https://spacestation14.io"
                Title="{Loc 'comp-pda-ui-menu-title'}"
-               SetSize="400 400"
-               MinSize="400 400">
+               SetSize="800 600"
+               MinSize="800 600">
     <TabContainer Name="MasterTabContainer">
         <!-- Scanner Tab -->
         <BoxContainer Name="Scanner"
@@ -10,61 +10,121 @@
                       HorizontalExpand="True"
                       MinSize="100 150">
             <PanelContainer VerticalExpand="True" StyleClasses="Inset">
-                <!-- Top-left aligned container -->
-                <BoxContainer Orientation="Horizontal" HorizontalExpand="False" VerticalExpand="False" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10">
-                    <!-- Number label -->
-                    <Label Name="NumberLabel"
-                           Text="1"
-                           HorizontalAlignment="Left"
-                           VerticalAlignment="Center"
-                           Margin="5 10 5 10" />
-                    <!-- Three buttons -->
-                    <Button Name="Button1"
-                            Text=" 1"
-                            MinSize="50 30"
-                            MaxSize="50 30"
-                            Margin="5" />
-                    <Button Name="Button2"
-                            Text=" 2"
-                            MinSize="50 30"
-                            MaxSize="50 30"
-                            Margin="5" />
-                    <Button Name="Button3"
-                            Text=" 3"
-                            MinSize="50 30"
-                            MaxSize="50 30"
-                            Margin="5" />
-                </BoxContainer>
-            </PanelContainer>
-        </BoxContainer>
-
-        <!-- New Tab -->
-        <BoxContainer Name="NewTab"
-                      Orientation="Vertical"
-                      VerticalExpand="True"
-                      HorizontalExpand="True"
-                      MinSize="100 150">
-            <PanelContainer VerticalExpand="True" StyleClasses="Inset">
-                <BoxContainer Orientation="Vertical" Margin="5 5 5 5" VerticalExpand="True" HorizontalExpand="True">
-                    <Label HorizontalAlignment="Center" Text="{Loc 'new-tab-header-label'}" />
-                    <BoxContainer Orientation="Horizontal" VerticalExpand="True" HorizontalExpand="True">
-                        <Label Text="{Loc 'new-tab-placeholder-label'}" />
+                <!-- Vertical BoxContainer for all 55 rows -->
+                <BoxContainer Orientation="Vertical" VerticalExpand="True" HorizontalExpand="True">
+                    <!-- Row 1 -->
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="5">
+                        <Button Name="Button1" Text="1" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button2" Text="2" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button3" Text="3" MinSize="50 30" MaxSize="50 30" Margin="5" />
                     </BoxContainer>
-                </BoxContainer>
-            </PanelContainer>
-        </BoxContainer>
-
-        <!-- New Tab -->
-        <BoxContainer Name="NewTab3"
-                      Orientation="Vertical"
-                      VerticalExpand="True"
-                      HorizontalExpand="True"
-                      MinSize="100 150">
-            <PanelContainer VerticalExpand="True" StyleClasses="Inset">
-                <BoxContainer Orientation="Vertical" Margin="5 5 5 5" VerticalExpand="True" HorizontalExpand="True">
-                    <Label HorizontalAlignment="Center" Text="{Loc 'new-tab-header-label'}" />
-                    <BoxContainer Orientation="Horizontal" VerticalExpand="True" HorizontalExpand="True">
-                        <Label Text="{Loc 'new-tab-placeholder-label'}" />
+                    <!-- Row 2 -->
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="5">
+                        <Button Name="Button4" Text="4" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button5" Text="5" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button6" Text="6" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                    </BoxContainer>
+                    <!-- Row 3 -->
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="5">
+                        <Button Name="Button7" Text="7" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button8" Text="8" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button9" Text="9" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                    </BoxContainer>
+                    <!-- Row 4 -->
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="5">
+                        <Button Name="Button10" Text="10" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button11" Text="11" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button12" Text="12" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                    </BoxContainer>
+                    <!-- Row 5 -->
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="5">
+                        <Button Name="Button13" Text="13" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button14" Text="14" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button15" Text="15" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                    </BoxContainer>
+                    <!-- Row 6 -->
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="5">
+                        <Button Name="Button16" Text="16" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button17" Text="17" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button18" Text="18" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                    </BoxContainer>
+                    <!-- Row 7 -->
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="5">
+                        <Button Name="Button19" Text="19" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button20" Text="20" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button21" Text="21" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                    </BoxContainer>
+                    <!-- Row 8 -->
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="5">
+                        <Button Name="Button22" Text="22" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button23" Text="23" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button24" Text="24" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                    </BoxContainer>
+                    <!-- Row 9 -->
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="5">
+                        <Button Name="Button25" Text="25" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button26" Text="26" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button27" Text="27" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                    </BoxContainer>
+                    <!-- Row 10 -->
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="5">
+                        <Button Name="Button28" Text="28" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button29" Text="29" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button30" Text="30" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                    </BoxContainer>
+                    <!-- Row 11 -->
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="5">
+                        <Button Name="Button31" Text="31" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button32" Text="32" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button33" Text="33" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                    </BoxContainer>
+                    <!-- Row 12 -->
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="5">
+                        <Button Name="Button34" Text="34" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button35" Text="35" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button36" Text="36" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                    </BoxContainer>
+                    <!-- Row 13 -->
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="5">
+                        <Button Name="Button37" Text="37" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button38" Text="38" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button39" Text="39" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                    </BoxContainer>
+                    <!-- Row 14 -->
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="5">
+                        <Button Name="Button40" Text="40" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button41" Text="41" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button42" Text="42" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                    </BoxContainer>
+                    <!-- Row 15 -->
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="5">
+                        <Button Name="Button43" Text="43" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button44" Text="44" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button45" Text="45" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                    </BoxContainer>
+                    <!-- Row 16 -->
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="5">
+                        <Button Name="Button46" Text="46" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button47" Text="47" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button48" Text="48" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                    </BoxContainer>
+                    <!-- Row 17 -->
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="5">
+                        <Button Name="Button49" Text="49" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button50" Text="50" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button51" Text="51" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                    </BoxContainer>
+                    <!-- Row 18 -->
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="5">
+                        <Button Name="Button52" Text="52" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button53" Text="53" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button54" Text="54" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                    </BoxContainer>
+                    <!-- Row 19 -->
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="5">
+                        <Button Name="Button55" Text="55" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button56" Text="56" MinSize="50 30" MaxSize="50 30" Margin="5" />
+                        <Button Name="Button57" Text="57" MinSize="50 30" MaxSize="50 30" Margin="5" />
                     </BoxContainer>
                 </BoxContainer>
             </PanelContainer>

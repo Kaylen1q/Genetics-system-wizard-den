@@ -12,6 +12,7 @@ namespace Content.Client.DNA.UI
     {
         public DNAConsoleWindow()
         {
+            
             IoCManager.InjectDependencies(this);
             RobustXamlLoader.Load(this);
         }
