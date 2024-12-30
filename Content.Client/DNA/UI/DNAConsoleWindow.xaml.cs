@@ -22,36 +22,7 @@ namespace Content.Client.DNA.UI
         {
             _lastUpdate = state;
             // BUILD SCANNER UI
-            if (state.ScannerConnected)
-            {
-                if (!state.ScannerInRange)
-                {
-                   
-                }
-
-              
-              
-              
-              
-
-
-                CloningPodContents.Visible = true;
-                CloningPodFar.Visible = false;
-                CloningPodMissing.Visible = false;
-
-                ClonerBrainActivity.SetMarkup(Loc.GetString(state.MindPresent ? "cloning-console-mind-present-text" : "cloning-console-no-mind-activity-text"));
-                // Set label depending if clonepod is occupied or not
-                ClonerInfoLabel.SetMarkup(state.ClonerBodyInfo != null ?
-                    Loc.GetString("cloning-console-window-pod-id", ("podOccupantName", state.ClonerBodyInfo)) :
-                    Loc.GetString("cloning-console-window-id-blank"));
-            }
-            else
-            {
-                // Clone pod is missing, set error message visible
-                CloningPodContents.Visible = false;
-                CloningPodFar.Visible = false;
-                CloningPodMissing.Visible = true;
-            }
+         
         }
     }
 }
