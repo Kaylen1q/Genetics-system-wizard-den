@@ -1,10 +1,10 @@
 - type: entity
   id: DNA Scanner 
   parent: BaseMachinePowered
-  name: DNA Scanner 
+  name: DNAScannerConsole 
   description: A bulky DNA Scanner 
   components:
-  - type: MedicalScanner
+  - type:  DNAScannerConsole
   - type: DeviceNetwork
     deviceNetId: Wired
     receiveFrequencyId: BasicDevice
