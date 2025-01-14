@@ -1,4 +1,4 @@
-
+using Content.Server.DNA;
 
 namespace Content.Server.DNA;
 [RegisterComponent]
